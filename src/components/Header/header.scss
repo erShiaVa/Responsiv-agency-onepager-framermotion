@@ -2,44 +2,53 @@
 @use "../../styles/base.scss";
 
 .nav{
-    position: sticky;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 0;
+    padding: 2.5rem 0;
     font-family: 'DM Sans', sans-serif;
-    transition: 0.5s all ease-in-out;
 
     @media (max-width: 1290px){
-        padding: 1rem 2rem;
+        padding: 1.5rem 2rem;
     }
 }
 
-.expanded{
-    height: 100vh;
-    width: 15rem;
-    background-color: #ccc;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 100;
-}
 
 .nav__items{
     display: flex;
+    align-items: center;
     gap: 1.75rem;
-
-    li{
-        list-style: none;
-    }
+    list-style: none;
+    cursor: pointer;
 
     @media (max-width: 876px){
-        display: none;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: -18rem;
+        background-color: #ccc;
+        height: 100vh;
+        width: 18rem;
+        flex-direction: column;
+        gap: 2.5rem;
+        padding: 0;
+        overflow: hidden;
+        text-align: right;
+        transition: right 0.5s ease-in-out, top 0.5s ease-in-out, bottom 0.5s ease-in-out, padding 0.5s ease-in-out;
+    }
+
+    &.show{
+        right: 0;
+        top: 0;
+        bottom: 0;
+        padding: 5.5rem 0;
     }
 }
 
 .toggle-icon{
     display: none;
+    cursor: pointer;
+    position: relative;
 
     @media (max-width: 876px){
         display: block;
