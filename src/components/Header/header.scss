@@ -1,0 +1,47 @@
+@use "../../styles/variables.scss";
+@use "../../styles/base.scss";
+
+.nav{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+    font-family: 'DM Sans', sans-serif;
+    transition: 0.5s all ease-in-out;
+
+    @media (max-width: 1290px){
+        padding: 1rem 2rem;
+    }
+}
+
+.expanded{
+    height: 100vh;
+    width: 15rem;
+    background-color: #ccc;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.nav__items{
+    display: flex;
+    gap: 1.75rem;
+
+    li{
+        list-style: none;
+    }
+
+    @media (max-width: 876px){
+        display: none;
+    }
+}
+
+.toggle-icon{
+    display: none;
+
+    @media (max-width: 876px){
+        display: block;
+    }
+}

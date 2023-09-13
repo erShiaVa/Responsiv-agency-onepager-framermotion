@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 80rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.button-secondary{
+    padding: 1rem 1.5rem;
+    background-color: transparent;
+    border: 1px solid #8D448B;
+    border-radius: 0.25rem;
+    color: #8D448B;
+}
+
+.button-primary{
+    padding: 1rem 1.5rem;
+    background-color: #8D448B;
+    border: none;
+    border-radius: 0.25rem;
+    color: #fff;
+}
