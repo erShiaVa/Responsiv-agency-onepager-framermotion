@@ -1,0 +1,48 @@
+@use "../../styles/variables.scss";
+@use "../../styles/base.scss";
+
+.service{
+    background-color: #fff;
+    padding: 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__heading{
+        text-align: center;
+    }
+}
+
+.service__items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2.5rem 0;
+
+    @media (max-width: 1290px){
+        justify-content: center;
+        gap: 2.25rem;
+    }
+}
+
+.service__box{
+    max-width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.service__item{
+    width: 8rem;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    background-image: linear-gradient(322.63deg,#F0DAFB 9.94%,rgba(255,144,102,0.5) 91.14%);
+    padding: 2rem;
+    margin-bottom: 1rem;
+}
