@@ -8,6 +8,7 @@ export const assets = {
     partner_three: require("../assets/partner-1-3.png"),
     boost_img: require("../assets/boost-1-1.png"),
     video__img: require("../assets/video.png"),
+    cta_img: require("../assets/cta-2-1.png"),
     service_one: require("./icons/service-1-1.svg").default,
     service_two: require("./icons/service-1-2.svg").default,
     service_three: require("./icons/service-1-3.svg").default,
