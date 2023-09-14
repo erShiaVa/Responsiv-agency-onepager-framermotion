@@ -1,0 +1,40 @@
+@use "../../styles/variables.scss";
+@use "../../styles/base.scss";
+
+.boost{
+    display: flex;
+    background-color: #fff;
+    
+    @media (max-width: 876px){
+        flex-wrap: wrap-reverse;
+        gap: 2rem;
+        justify-content: center;
+    }
+}
+
+.boost__img{
+    mix-blend-mode: darken;
+
+    img{
+        width: 100%;
+
+        @media (max-width: 480px){
+            width: 25rem;
+        }
+    }
+}
+
+.boost__content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0 1.5rem;
+}
+
+.boost_mark{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding-bottom: 0.75rem;
+}

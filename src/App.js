@@ -1,3 +1,4 @@
+import Boost from './components/Boost/Boost';
 import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import ServiceSection from './components/ServiceSection/ServiceSection';
@@ -9,6 +10,7 @@ function App() {
       <Header/>
       <Hero/>
       <ServiceSection/>
+      <Boost/>
     </div>
   );
 }
