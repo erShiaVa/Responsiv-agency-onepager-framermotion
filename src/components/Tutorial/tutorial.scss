@@ -1,0 +1,38 @@
+@use "../../styles/variables.scss";
+@use "../../styles/base.scss";
+
+.tutorial__content{
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.tutorial__cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+
+    @media (max-width: 1024px){
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+}
+
+.tutorial__card{
+    width: 25.6rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 6px 0px rgba(89, 88, 88, 0.10);
+
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.card__text{
+    padding: 1rem 1.5rem;
+    text-align: center;
+}
+
