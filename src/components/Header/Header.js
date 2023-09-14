@@ -22,7 +22,6 @@ function Header() {
             <li>Services</li>
             <li>Testimonials</li>
             <li>News</li>
-            <button className="button-secondary">Get in Touch</button>
         </ul>
         <div className="toggle-icon" onClick={handleToggle}>
           {toggle ? <CgClose size={22}/> : <CgMenuRight size={22}/>}
