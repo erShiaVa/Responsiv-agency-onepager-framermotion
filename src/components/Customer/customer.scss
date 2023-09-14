@@ -1,0 +1,35 @@
+@use "../../styles/variables.scss";
+@use "../../styles/base.scss";
+
+.customer{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 1024px){
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+}
+
+.customer__content{
+    max-width: 35rem;
+
+    @media (max-width: 1024px){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+.linebreak{
+    padding-bottom: 0.75rem;
+}
+
+.customer__img img{
+    width: 100%;
+    height: auto;
+}
