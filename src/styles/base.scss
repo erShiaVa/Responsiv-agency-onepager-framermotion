@@ -26,6 +26,11 @@ body{
     }
 }
 
+li{
+    list-style: none;
+    cursor: pointer;
+}
+
 .heading__one{
     letter-spacing: 0.85px;
     line-height: 5rem;

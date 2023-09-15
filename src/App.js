@@ -5,6 +5,7 @@ import Hero from './components/Hero/Hero';
 import ServiceSection from './components/ServiceSection/ServiceSection';
 import Tutorial from './components/Tutorial/Tutorial';
 import Video from './components/VideoSection/Video';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Video/>
       <Customer/>
       <Tutorial/>
+      <Footer/>
     </div>
   );
 }
