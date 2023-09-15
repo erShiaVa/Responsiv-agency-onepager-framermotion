@@ -1,1 +1,23 @@
-@use "styles/variables";
+@use "../../styles/variables.scss";
+@use "../../styles/base.scss";
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__items{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    &__icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        cursor: pointer;
+    }
+}
