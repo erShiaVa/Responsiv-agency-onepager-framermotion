@@ -12,7 +12,7 @@ function ServiceSection() {
             </div>
             <div className="service__items">
                 <div className="service__box">
-                    <div className="service__item">
+                    <div className="service__item one">
                         <img src={assets.service_one} alt="#" />
                     </div>
                     <div className="service__content">
@@ -21,7 +21,7 @@ function ServiceSection() {
                     </div>
                 </div>
                 <div className="service__box">
-                    <div className="service__item">
+                    <div className="service__item two">
                         <img src={assets.service_two} alt="#" />
                     </div>
                     <div className="service__content">
@@ -30,7 +30,7 @@ function ServiceSection() {
                     </div>
                 </div>
                 <div className="service__box">
-                    <div className="service__item">
+                    <div className="service__item three">
                         <img src={assets.service_three} alt="#" />
                     </div>
                     <div className="service__content">
@@ -39,7 +39,7 @@ function ServiceSection() {
                     </div>
                 </div>
                 <div className="service__box">
-                    <div className="service__item">
+                    <div className="service__item four">
                         <img src={assets.service_four} alt="#" />
                     </div>
                     <div className="service__content">
