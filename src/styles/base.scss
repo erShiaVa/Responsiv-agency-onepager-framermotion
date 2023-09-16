@@ -2,6 +2,7 @@
 
 $font-color: #251749;
 $font-color-light: #534083;
+$linear-gradient: linear-gradient(320deg, #f27121 8.63%, #e94057 91.48%);
 
 *{
     margin: 0;
@@ -15,6 +16,10 @@ body{
     font-family: 'DM Sans', sans-serif;
 }
 
+li{
+    list-style: none;
+}
+
 .container{
     max-width: 80rem;
     width: 100%;
@@ -24,11 +29,6 @@ body{
     @media (max-width: 1290px){
         padding: 1.5rem 2rem;
     }
-}
-
-li{
-    list-style: none;
-    cursor: pointer;
 }
 
 .heading__one{
@@ -44,7 +44,6 @@ li{
 
     @media (max-width: 876px){
         font-size: 2.5rem;
-        line-height: 3rem;
     }
 
     @media (max-width: 744px){
@@ -123,7 +122,7 @@ li{
 
 .button-primary{
     padding: 1rem 1.5rem;
-    background: linear-gradient(157deg, #F881F3 8.63%, #BC81F8 91.48%);
+    background: linear-gradient(320deg, #f27121 8.63%, #e94057 91.48%);
     border: none;
     border-radius: 0.25rem;
     color: #fff;
