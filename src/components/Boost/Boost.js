@@ -29,7 +29,7 @@ function Boost() {
                         <img src={assets.check_mark} alt="#" />
                         <p className='paragraph'>Easy to customize plugins</p>
                     </div>
-                    <a className='a-tag' href="#">Learn more<IoIosArrowForward/></a>
+                    <p className='a-tag'>Learn more<IoIosArrowForward/></p>
                 </div>
             </div>
         </div>
