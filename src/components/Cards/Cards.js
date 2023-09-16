@@ -5,12 +5,9 @@ import { IoIosArrowForward } from 'react-icons/io';
 
 
 function Cards() { 
-
     const [isOpen1, setIsOpen1] = useState(false);
     const [isOpen2, setIsOpen2] = useState(false);
     const [isOpen3, setIsOpen3] = useState(false);
-
-
   return (  
     <div className='cards container'>
         <motion.div 
