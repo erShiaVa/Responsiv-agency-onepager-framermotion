@@ -7,7 +7,7 @@ import Tutorial from './components/Tutorial/Tutorial';
 import Video from './components/VideoSection/Video';
 import Footer from './components/Footer/Footer';
 import Slider from './components/Slider/Slider';
-
+import Cards from './components/Cards/Cards'; 
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
       <Header/>
       <Hero/>
       <ServiceSection/>
+      <Cards/>
       <Boost/>
       <Video/>
       <Slider/>
