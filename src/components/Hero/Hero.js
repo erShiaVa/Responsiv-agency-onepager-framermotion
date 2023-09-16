@@ -1,13 +1,14 @@
 import React from 'react';
 import './hero.scss';
 import { assets } from '../../assets';
+import { motion } from 'framer-motion';
 
 function Hero() {
   return (
     <div className='hero'>
         <div className='container'>
           <div className="hero__content">
-            <h1 className="heading__one">
+            <h1 className='heading__one'>
               Great Business is built<br/>
               with amazing developers
             </h1>

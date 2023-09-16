@@ -14,7 +14,7 @@ function Video() {
             </p>
         </div>
         <div className='video__tag'>
-            <a href="" className="a-tag">Explore Details<IoIosArrowForward/></a>
+            <a href="#" className="a-tag">Explore Details<IoIosArrowForward/></a>
         </div>
         <div className="video__img">
             <img src={assets.video__img} alt="#" />

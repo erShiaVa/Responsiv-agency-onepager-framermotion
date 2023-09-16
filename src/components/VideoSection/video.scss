@@ -20,7 +20,8 @@
 
 .video__img img{
     border-radius: 1rem;
-    width: 100%;
+    max-width: 100%;
+    width: 80rem;
     height: auto;
     box-shadow: 2px 2px 6px 0px rgba(89, 88, 88, 0.10);
 }
