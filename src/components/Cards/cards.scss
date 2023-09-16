@@ -1,6 +1,13 @@
 @use "../../styles/variables.scss";
 @use "../../styles/base.scss";
 
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
 .card{
     background-color: #fff;
     padding: 2rem;
