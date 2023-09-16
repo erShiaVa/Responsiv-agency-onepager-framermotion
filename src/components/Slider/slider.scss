@@ -1,0 +1,31 @@
+@use "../../styles/variables.scss";
+@use "../../styles/base.scss";
+
+.slider__heading{
+    text-align: center;
+}
+
+.carousel{
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.inner-carousel{
+    display: flex;
+}
+
+.slider__item{
+    width: 100%;
+    min-width: 25rem;
+    height: auto;
+    padding: 2rem;
+
+    img{
+        width: 100%;
+        height: auto;
+        border-radius: 0.75rem;
+        pointer-events: none;
+        box-shadow: 2px 2px 6px 0px rgba(89, 88, 88, 0.10);
+    }
+}
+

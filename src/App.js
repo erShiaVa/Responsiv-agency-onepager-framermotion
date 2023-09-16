@@ -6,6 +6,7 @@ import ServiceSection from './components/ServiceSection/ServiceSection';
 import Tutorial from './components/Tutorial/Tutorial';
 import Video from './components/VideoSection/Video';
 import Footer from './components/Footer/Footer';
+import Slider from './components/Slider/Slider';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <ServiceSection/>
       <Boost/>
       <Video/>
+      <Slider/>
       <Customer/>
       <Tutorial/>
       <Footer/>
