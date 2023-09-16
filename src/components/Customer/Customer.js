@@ -21,7 +21,7 @@ function Customer() {
                     If you are unsatisfied, we’ll refund payment or fix issues.  
                 </p> 
                 <div className="customer__tag">
-                    <a href="#" className="a-tag">Learn more<IoIosArrowForward/></a>
+                    <p className="a-tag">Learn more<IoIosArrowForward/></p>
                 </div>
             </div>
             <div className="customer__img">
