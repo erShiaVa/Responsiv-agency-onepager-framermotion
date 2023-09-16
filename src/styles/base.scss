@@ -1,7 +1,10 @@
 @use "./variables.scss";
 
-$font-color: #251749;
-$font-color-light: #534083;
+$font-color: #0F2137;
+$font-color-light: #6A6D8D;
+$primary-color: #8D448A;
+$bg-color: #F5F8FB;
+
 
 *{
     margin: 0;
@@ -10,9 +13,13 @@ $font-color-light: #534083;
 }
 
 body{
-    background-color: #FAF3FE;
+    background-color: #fff;
     color: $font-color;
     font-family: 'DM Sans', sans-serif;
+}
+
+li{
+    list-style: none;
 }
 
 .container{
@@ -24,11 +31,6 @@ body{
     @media (max-width: 1290px){
         padding: 1.5rem 2rem;
     }
-}
-
-li{
-    list-style: none;
-    cursor: pointer;
 }
 
 .heading__one{
@@ -44,7 +46,6 @@ li{
 
     @media (max-width: 876px){
         font-size: 2.5rem;
-        line-height: 3rem;
     }
 
     @media (max-width: 744px){
@@ -90,7 +91,7 @@ li{
 }
 
 .a-tag{
-    color: $font-color;
+    color: $primary-color;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -98,17 +99,18 @@ li{
     font-size: 0.9rem;
     font-weight: 500;
     padding: 1rem 0;
+    cursor: pointer;
 
     &:hover{
-        font-weight: 900;
+        font-weight: 1000;
     }
 }
 
 .button-secondary{
     padding: 1rem 1.5rem;
     background-color: transparent;
-    border: 1px solid $font-color;
-    color: #251749;
+    border: 1px solid $primary-color;
+    color: $primary-color;
     border-radius: 0.25rem;
     cursor: pointer;
     box-shadow: 2px 2px 6px 0px rgba(89, 88, 88, 0.10);
@@ -123,7 +125,7 @@ li{
 
 .button-primary{
     padding: 1rem 1.5rem;
-    background: linear-gradient(157deg, #F881F3 8.63%, #BC81F8 91.48%);
+    background-color: $primary-color;
     border: none;
     border-radius: 0.25rem;
     color: #fff;

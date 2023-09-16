@@ -2,7 +2,6 @@
 @use "../../styles/base.scss";
 
 .customer{
-    background-color: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,4 +31,5 @@
 .customer__img img{
     width: 100%;
     height: auto;
+    mix-blend-mode: darken;
 }

@@ -18,6 +18,7 @@ export const assets = {
     slider_four: require("../assets/slider-four.jpg"),
     slider_five: require("../assets/slider-five.jpg"),
     slider_six: require("../assets/slider-six.jpg"),
+    bg_img: require("../assets/bg.png"),
     service_one: require("./icons/service-1-1.svg").default,
     service_two: require("./icons/service-1-2.svg").default,
     service_three: require("./icons/service-1-3.svg").default,

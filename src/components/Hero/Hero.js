@@ -1,7 +1,6 @@
 import React from 'react';
 import './hero.scss';
 import { assets } from '../../assets';
-import { motion } from 'framer-motion';
 
 function Hero() {
   return (
