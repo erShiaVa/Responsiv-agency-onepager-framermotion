@@ -17,13 +17,13 @@ function Tutorial() {
                 </div>
             </div>
             <div className="tutorial__card">
-                <img src={assets.tutorial_two} alt="#" />
+                <img src={assets.tutorial_three} alt="#" />
                 <div className="card__text">
                     <p className="paragraph">How to work with prototype design with adobe xd featuring tools</p>
                 </div>
             </div>
             <div className="tutorial__card">
-                <img src={assets.tutorial_three} alt="#" />
+                <img src={assets.tutorial_two} alt="#"/>
                 <div className="card__text">
                     <p className="paragraph">How to work with prototype design with adobe xd featuring tools</p>
                 </div>
