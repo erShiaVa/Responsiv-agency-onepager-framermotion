@@ -31,6 +31,10 @@ li{
     @media (max-width: 1290px){
         padding: 1.5rem 2rem;
     }
+
+    @media (max-width: 480px){
+        padding: 1rem 2rem;
+    }
 }
 
 .heading__one{
@@ -50,6 +54,8 @@ li{
 
     @media (max-width: 744px){
         font-size: 2rem;
+        line-height: 2.5rem;
+        padding-bottom: 1rem;
     }
 }
 
@@ -59,6 +65,11 @@ li{
     padding-bottom: 1.25rem;
     font-size: 2.5rem;
     font-weight: 600;
+
+    @media (max-width: 480px){
+        line-height: 2.85rem;
+        font-size: 1.75rem;
+    }
 }
 
 .heading__three{
@@ -88,6 +99,14 @@ li{
     font-weight: 300;
     letter-spacing: 0.8px;
     line-height: 1.5rem;
+
+    @media (max-width: 744px){
+        font-size: 0.85rem;
+    }
+}
+
+.paragraph-s{
+    font-size: 0.85rem;
 }
 
 .a-tag{

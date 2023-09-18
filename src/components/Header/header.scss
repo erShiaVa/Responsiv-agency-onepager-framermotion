@@ -10,8 +10,11 @@
     @media (max-width: 1290px){
         padding: 1.5rem 2rem;
     }
-}
 
+    @media (max-width: 480px){
+        padding: 0;
+    }
+}
 
 .nav__items{
     display: flex;

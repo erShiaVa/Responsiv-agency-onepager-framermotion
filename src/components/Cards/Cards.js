@@ -17,7 +17,7 @@ function Cards() {
             className='card'
         >
             <motion.h3 layout="position" className='heading__three'>
-                Optimize everything from the ground up 🚀
+                Optimize everything from the ground 
             </motion.h3>
                 {isOpen1 && (
                 <motion.div 
@@ -51,7 +51,7 @@ function Cards() {
             className='card'
         >
             <motion.h3 layout="position" className='heading__three'>
-                Optimize everything from the ground up 🚀
+                Turning Ideas into Optimized Realities 
             </motion.h3>
                 {isOpen2 && (
                 <motion.div 
@@ -85,7 +85,7 @@ function Cards() {
             className='card'
         >
             <motion.h3 layout="position" className='heading__three'>
-                Optimize everything from the ground up 🚀
+                Comprehensive Optimization Services 
             </motion.h3>
                 {isOpen3 && (
                 <motion.div 
