@@ -6,6 +6,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 1.5rem;
+    text-align: center;
 
     @media (max-width: 876px){
         flex-wrap: wrap;
@@ -20,4 +21,6 @@
 
 .cards__button{
     padding: 1rem 0;
+    display: flex;
+    justify-content: center;
 }

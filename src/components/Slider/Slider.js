@@ -17,7 +17,7 @@ function Slider() {
     return (
         <div className="slider container">
             <div className="slider__heading">
-               <h2 className="heading__two">Team-Work for the Dream-Work</h2> 
+               <h2 className="heading__two">Our dedicated team will help you</h2> 
             </div>
             <motion.div className='carousel' ref={carousel}>
                 <motion.div 

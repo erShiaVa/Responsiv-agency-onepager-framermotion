@@ -29,6 +29,12 @@
     flex-direction: column;
     gap: 1.5rem;
     padding: 0 1.5rem;
+
+    @media (max-width: 480px){
+        gap: 0.85rem;
+        padding: 0 1rem;
+        text-align: center;
+    }
 }
 
 .boost_mark{
